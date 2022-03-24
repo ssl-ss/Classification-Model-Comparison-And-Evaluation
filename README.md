@@ -1,4 +1,4 @@
-# Machine-Learning-Model-Selection-Evaluation-
+# Classification-Model-Comparison-And-Evaluation-
 Apply machine learning models (decision tree/logistic regression/svc) to find out factors that are most predictive of data scientists leaving their current job
 
 
