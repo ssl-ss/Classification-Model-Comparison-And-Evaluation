@@ -25,7 +25,6 @@ The classification target was labeled as either 0 or 1. 0 means the data scienti
 
 This dataset is very imbalanced. 14,381 samples belonged to the 0 class but only 4,777 samples belonged to the 1 class.  
 
-So, before moving on to model training, I need to first preprocess the data.
 
 ## Data Preprocessing 
 
