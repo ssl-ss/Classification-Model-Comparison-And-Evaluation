@@ -31,18 +31,40 @@ This dataset is very imbalanced. 14,381 samples belonged to the 0 class but only
 <img width="783" alt="image" src="https://user-images.githubusercontent.com/58230771/159839620-e608d4cb-a6e5-4e12-99ed-4df6d0314911.png">
 
 #### Before: ####
-<img width="552" alt="image" src="https://user-images.githubusercontent.com/58230771/159842754-d6d111e0-c0e1-4720-8a4c-b42c8608699e.png">
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/58230771/159842754-d6d111e0-c0e1-4720-8a4c-b42c8608699e.png">
 
 #### After: ####
-<img width="552" alt="image" src="https://user-images.githubusercontent.com/58230771/159842775-34597dcf-5b6b-4449-b01e-abfe0846d1f8.png">
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/58230771/159842775-34597dcf-5b6b-4449-b01e-abfe0846d1f8.png">
 
 
 
 ## Model Selection & Parameter Tuning 
 
-I chose 3 commonly used classification models - Support Vector Classification, Decision Tree, and Logistic Regression - to make the prediction. For each classifier, I performed a grid search with 5-fold cross validation to find the sets of parameters that produce the best outcomes.  
+I chose 3 commonly used classification models - Support Vector Classification, Decision Tree, and Logistic Regression - to make the prediction. For each classifier, I performed a grid search with 5-fold cross validation to find the sets of parameters (highlighted in yellow) that produce the best outcomes.  
 
 The sets of parameters I tuned are the followings: 
 
-<img width="833" alt="image" src="https://user-images.githubusercontent.com/58230771/159843584-eafa598c-8812-429f-b5d1-6a3ed1d0f45b.png">
+<img width="552" alt="image" src= "https://user-images.githubusercontent.com/58230771/160515604-0562d8f5-9832-4cf5-8f45-a48b95a64843.png">
+
+
+## Results
+
+### ROC ###
+(SVC)
+
+<img width="600" alt="Screen Shot 2022-03-28 at 9 21 44 PM" src="https://user-images.githubusercontent.com/58230771/160519978-76b1159f-fd7d-45e3-8530-71f69a19ae40.png"> 
+
+(Decision Tree)
+
+<img width="600" alt="Screen Shot 2022-03-28 at 9 35 06 PM" src="https://user-images.githubusercontent.com/58230771/160521376-a400c025-0c68-412f-9fd9-7f9305f3e9eb.png">
+
+(Logistic Regression) 
+
+<img width="600" alt="Screen Shot 2022-03-28 at 9 43 28 PM" src="https://user-images.githubusercontent.com/58230771/160522427-86145190-e84f-4a71-9c94-4400de2aa00d.png">
+
+
+
+
+
+<img width="758" alt="image" src="https://user-images.githubusercontent.com/58230771/160519601-34321ddc-6196-409a-92a6-0f132eb70e9c.png">
 
