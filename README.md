@@ -49,6 +49,12 @@ The sets of parameters I tuned are the followings:
 
 ## Results
 
+### Metrics 
+<img width="758" alt="image" src="https://user-images.githubusercontent.com/58230771/160519601-34321ddc-6196-409a-92a6-0f132eb70e9c.png">
+
+Based on the key metrics, the SVC model outperformed the other two models. It had the highest accuracy/precision for identifying the positive class/recall/f1. Although its precision for classifying the negative class was lower than that of the Logistic Regression model, we are tolerant of the cost since we care more about correctly identifying the positive class. 
+
+
 ### ROC ###
 (SVC)
 
@@ -62,9 +68,28 @@ The sets of parameters I tuned are the followings:
 
 <img width="600" alt="Screen Shot 2022-03-28 at 9 43 28 PM" src="https://user-images.githubusercontent.com/58230771/160522427-86145190-e84f-4a71-9c94-4400de2aa00d.png">
 
+AUC: SVC = LR > Tree
 
+The AUC values also supported that SVC was a better model.  
 
+### Feature Importance ###
 
+(SVC)
 
-<img width="758" alt="image" src="https://user-images.githubusercontent.com/58230771/160519601-34321ddc-6196-409a-92a6-0f132eb70e9c.png">
+<img width="427" alt="Screen Shot 2022-04-03 at 5 59 22 PM" src="https://user-images.githubusercontent.com/58230771/161452521-b5415a58-5a86-4221-84b4-b10f2150bfbd.png">
 
+According to the SVC model, city_development_index, which is a numerical variable that shows how developed a city is, contributed the most to predict the data scientist would stay in the current company. In contrast, the enrolled_university variable, which has 3 cases: no enrollment, part-time enrollment, and full-time enrolment, was predictive of the data scientist was planning on a job change. 
+
+(Decision Tree)
+
+<img width="665" alt="image" src="https://user-images.githubusercontent.com/58230771/161453056-86e7ad13-d651-4c5a-ad6e-c0caa476cdb8.png">
+
+Again, the city_development_index was still considered a very important predictor by the decision tree classifier. The next important variables were experience-related. 
+
+(Logistic Regression) 
+
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/58230771/161453498-7bba6d7a-7e8e-4941-ab8a-6e2a1df3cbeb.png">
+
+Similar to the SVC model, the Logistic Regression model thinks that the development index of the city was associated with data scientists staying. The last_new_job variable, which is the difference in years between previous job and current job, was predictive of data scientists leaving. 
+
+#### Overall, all 3 models did a fairly good job in prediction although SVC performed slightly better than the other two. They all agreed that how developed a city is could determine if data scientists want to stay in their current job or not. 
