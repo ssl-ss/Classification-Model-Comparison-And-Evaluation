@@ -8,7 +8,10 @@ In this project, I am looking at what kinds of factors are most predictive of da
 Practically, HRs in companies can use this information to predict if their employees are planning on a job change and can take measures accordingly. 
 Since the predicted outcomes are binary (i.e., leave or stay), this project will be a classification task. 
 
-More importantly, in this project, I want to accomplish the whole process of building a machine learning pipeline in a systematic way. And be able to compare and evaluate different (classification) machine learning models. 
+More importantly, in this project, I want to accomplish the whole process of building a machine learning pipeline in a systematic way (as described in the figure below). And be able to compare and evaluate different (classification) machine learning models. 
+
+<img width="1060" alt="Screen Shot 2022-04-03 at 6 39 51 PM" src="https://user-images.githubusercontent.com/58230771/161454002-8370f70c-206c-491b-a5bf-9937eb179b1c.png">
+
 
 ## Data
 
