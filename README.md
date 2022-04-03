@@ -5,7 +5,7 @@ Apply machine learning models (decision tree/logistic regression/svc) to find ou
 ## Objective
 
 In this project, I am looking at what kinds of factors are most predictive of data scientists leaving their current job.
-Practically, HRs in companies can use this information to predict if their employees are leaving and can take measures accordingly. 
+Practically, HRs in companies can use this information to predict if their employees are planning on a job change and can take measures accordingly. 
 Since the predicted outcomes are binary (i.e., leave or stay), this project will be a classification task. 
 
 More importantly, in this project, I want to accomplish the whole process of building a machine learning pipeline in a systematic way. And be able to compare and evaluate different (classification) machine learning models. 
